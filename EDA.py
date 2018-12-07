@@ -14,6 +14,15 @@ import seaborn as sn
 
 dataset = pd.read_csv('churn_data.csv')
 
+# Putting aside raw_data for testing created app
+# Splitting into Train and Test Set
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(dataset.drop(columns = 'churn'),
+                                                    dataset['churn'],
+                                                    test_size = 0.2,
+                                                    random_state = 0)
+
+X_test.to_csv('raw_data.csv', index = False)
 
 ### EDA ###
 
