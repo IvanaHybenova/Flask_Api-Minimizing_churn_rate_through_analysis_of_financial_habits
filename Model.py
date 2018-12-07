@@ -409,7 +409,7 @@ fitted_models['rf'].best_estimator_
 
 
 '''
-5. P R O J E C T   D E L I V E R Y
+P R O J E C T   D E L I V E R Y
 '''
 # NumPy for numerical computing
 import numpy as np
