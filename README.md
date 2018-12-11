@@ -6,7 +6,9 @@ Mock-up dataset based on trends found in real world case studies; 27 000 instanc
 
 Goal: 
 Predict which users are likely to churn, so that the company can focus on re-engaging these users with the product.
-Challenges: Imbalanced classes (solved by under sampling), high dimensionality (solved by computing feature importance with Extra trees classifier and backwards elimination)
+
+Challenges: 
+Imbalanced classes (solved by under sampling), high dimensionality (solved by computing feature importance with Extra trees classifier and backwards elimination)
 
 Algorithms: 
 LR regularization L1 and L2, SVM classifier, GB classifier, RF classifier
